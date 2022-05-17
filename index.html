@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="main.js"></script>
+    <title>Mock exam</title>
+  </head>
+  <body>
+    <header class="container header">
+      <a class="logo" href="#">
+        <img class="logo_img" src="./imgs/cake_lab.jpg" alt="logo img here" />
+      </a>
+      <div class="header_title">Welcome!!!</div>
+      <ul class="nav">
+        <li class="nav_item">
+          <a class="nav_link" href="#">About</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Services</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Products</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Contacts</a>
+        </li>
+      </ul>
+    </header>
+    <!-- body -->
+    <section class="box container">
+      <div class="box_two">
+        <form class="form" onsubmit="return myfun()">
+          <h2 class="login">Login</h2>
+          <label class="form_label">
+            <input
+              id="nom"
+              name="ism"
+              type="text"
+              class="form_input"
+              placeholder="Enter your first name"
+            />
+            <span style="color: red" id="nomjon"></span>
+          </label>
+          <label class="form_label">
+            <input
+              id="yosh"
+              name="age"
+              type="number"
+              class="form_input"
+              placeholder="Enter Your Age"
+            />
+            <span style="color: red" id="pochtajon"></span>
+          </label>
+          <label class="form_label">
+            <input
+              id="telefon"
+              name="phone"
+              type="tel"
+              class="form_input"
+              placeholder="Enter your phone number"
+            />
+            <span style="color: red" id="teljon"></span>
+          </label>
+          <br />
+          <div class="select">
+            <label class="form_label label_word">Choose your gender</label>
+            <br />
+            <br />
+            <input class="radio" name="option" type="radio" />
+            <span class="label_word">Male</span>
+            <input class="radio" name="option" type="radio" />
+            <span class="label_word">Female</span>
+          </div>
+          <label class="form_label">
+            <input
+              id="password1"
+              name="kod"
+              type="password"
+              class="form_input"
+              placeholder="Enter the password"
+            />
+            <span style="color: red" id="message"></span>
+          </label>
+          <label class="form_label">
+            <input
+              id="password2"
+              name="confirm"
+              type="password"
+              class="form_input"
+              placeholder="Confirm your password"
+            />
+            <span style="color: red" id="message"></span>
+            <br />
+            <span style="color: green" id="messagess"></span>
+          </label>
+          <br />
+
+          <button class="btn sub" type="submit">Submit</button>
+          <button class="btn res" type="reset">Reset</button>
+        </form>
+      </div>
+      <div class="box_one">
+        <div class="img1">
+          <img class="photo" src="./imgs/cake_car.jpg" alt="" />
+        </div>
+        <div class="box_text">
+          <h3 class="desc_title">Lorem ipsum dolor.</h3>
+          <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+            minima optio? Unde odio suscipit a praesentium aut dolorum explicabo
+            ipsum repudiandae at consequuntur?minima optio? Unde odio suscipit a
+            praesentium aut dolorum explicabo ipsum repudiandae at consequuntur?
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer_text">
+        <div class="footer_info">
+          <div class="footer_logo">Cake Lab</div>
+          <div class="footer_desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
+            aspernatur quae nobis vero rerum facilis quos cumque ab modi
+            adipisci.
+          </div>
+          <p class="footer_copy">
+            &copy;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="footer_tools">
+          <a href="#"
+            ><img src="./imgs/facebook.png" alt="" class="footer_icon"
+          /></a>
+          <a href="#">
+            <img src="./imgs/twitter.png" alt="" class="footer_icon" />
+          </a>
+          <a href="#">
+            <img src="./imgs/instag.png" alt="" class="footer_icon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
